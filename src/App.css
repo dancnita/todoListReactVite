@@ -1,0 +1,81 @@
+body {
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: #22b455;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header-container {
+  border: 1px solid #22b455;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header-container > form > input {
+  margin-bottom: 20px;
+  background-color: black;
+  color: #22b455;
+  border: 1px solid #22b455;
+  margin-right: 10px;
+}
+
+button {
+  background-color: black;
+  color: #22b455;
+  border: 1px solid #22b455;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 2px;
+}
+button:hover {
+ background-color: #22b455;
+ color: black;
+}
+button:active {
+  background-color: greenyellow;
+  color: #22b455;
+}
+
+.del-btn {
+  margin-left: 10px;
+}
+
+.header-container> form > input:focus {
+ outline: none !important;
+    border-color: #22b455;
+    box-shadow: 0 0 10px #8eaecf;
+}
+
+#submit {
+  margin-right: 5px;
+}
+
+.tasks-container {
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid #22b455;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  list-style-position: inside;
+}
+
+.logo {
+  text-align: right;
+  padding: 10px;
+}
+/* li:has(done) {
+  color: hsl(0, 100%, 30%);
+} */
